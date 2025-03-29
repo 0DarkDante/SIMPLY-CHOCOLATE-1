@@ -16,6 +16,11 @@ a {
   text-decoration: none;
 }
 
+button {
+  border: none;
+  cursor: pointer;
+}
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -51,4 +56,59 @@ a {
   letter-spacing: -0.02em;
   color: #111;
   padding: 28px 0;
+}
+
+/* SECTION quick_purchase */
+
+.quick_purchase {
+  min-height: 600px;
+  border-radius: 30px;
+  background-color: #1e1823;
+}
+
+.quick_purchase_main_link {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+  color: #fff;
+  max-width: 484px;
+}
+
+.quick_purchase_btn {
+  border-radius: 100px;
+  padding: 14px 40px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  background-color: #fd9222;
+  margin-right: 14px;
+}
+
+.quick_purchase_link {
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding: 14px 40px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+}
+
+.quick_purchase_scroll {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+  color: #fff;
+  margin-left: auto;
+}
+
+.quick_purchase_case1 {
+  display: flex;
+  margin-top: 32px;
+  align-items: center;
+}
+
+.quick_purchase_wrapper {
+  padding: 375px 40px 40px 40px;
 }
