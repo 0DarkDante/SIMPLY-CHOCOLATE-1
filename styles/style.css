@@ -143,3 +143,73 @@ button {
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.7);
 }
+
+/* section ingridient magic */
+
+.ingredients_magic {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.ingredients_magic_title  {
+  font-weight: 600;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  max-width: 411px;
+  margin: 0 auto;
+  padding-bottom: 28px;
+  span {
+      color: #FD9222;
+    }
+}
+
+.ingredients_magic_text {
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  max-width: 486px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.ingredients_magic_items {
+  display: flex;
+  gap: 19px;
+}
+
+.ingredients_magic_item:first-child {
+  background-color: #fd9222;
+  color: #fff;
+}
+
+.ingredients_magic_item:nth-child(3) {
+  background-color: #1e1823;
+  color: #fff;
+}
+
+.ingredients_magic_item {
+  height: 270px;
+  border: 1px solid #fd9222;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  padding: 28px 32px;
+  flex-basis: calc((100% - 57px) / 4);
+}
+
+.ingredients_magic_item_img {
+
+}
+
+.ingredients_magic_item_text {
+  padding-top: 36px;
+}
+
+.ingredients_magic_item> {}
+
