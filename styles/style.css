@@ -5,6 +5,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #E9E9E9;
 }
 
 ul, ol {
@@ -190,6 +191,10 @@ button {
   color: #fff;
 }
 
+.ingredients_magic_item:nth-child(even) {
+  background-color: #fff;
+}
+
 .ingredients_magic_item {
   height: 270px;
   border: 1px solid #fd9222;
@@ -235,13 +240,14 @@ button {
 
 .chocolate_made_img {
   max-height: 400px;
+  border-color: #E9E9E9;
 }
 
 .chocolate_made_headline {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.33;
-  max-width: 350px;
+  max-width: 382px;
   margin-bottom: 28px;
   margin-top: 32px;
   padding-left: 32px;
@@ -256,7 +262,7 @@ button {
   background-color: #FFFFFF;
   width: 516px;
   max-height: 400px;
-  border: 1px solid red;
+  border-radius: 15px;
 }
 
 .chocolate_made_items {}
@@ -272,4 +278,104 @@ button {
   letter-spacing: -0.02em;
   padding-left: 32px;
   width: 457px;
+}
+
+/* section reviews */
+.reviews {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.reviews_headline {
+  font-weight: 600;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  span {
+      color: #FD9222;
+    }
+}
+
+.reviews_items {}
+
+.reviews_item {}
+
+.reviews {}
+
+.reviews_title {}
+
+.reviews_text {}
+
+.reviews_btn {}
+
+/* footer */
+
+footer {
+  background: #1e1823;
+}
+
+.footer_flex1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.footer_title {
+  max-width: 300px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #fff;
+    span {
+        color: #FD9222;
+      }
+}
+
+.footer_address {
+  text-align: left;
+}
+
+.footer_address_text {
+  font-size: 14px;
+  line-height: 1.28;
+  text-align: center;
+  color: #fff;
+}
+
+.footer_address_flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_address_link {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.footer_address_br {
+border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 1136px;
+  height: 0px;
+  
+}
+
+.footer_nav {}
+
+.footer_nav_items {
+  display: flex;
+  gap: 24px;
+}
+
+.footer_nav_link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fff;
+  padding-bottom: 86px;
 }
