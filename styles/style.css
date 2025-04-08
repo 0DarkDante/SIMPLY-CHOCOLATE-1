@@ -250,37 +250,52 @@ button {
   font-weight: 600;
   font-size: 18px;
   line-height: 1.33;
-  max-width: 382px;
   margin-bottom: 28px;
-  margin-top: 32px;
-  padding-left: 32px;
 }
 
-.chocolate_made_flex_left {
+.chocolate_made_wrap {
   display: flex;
   gap: 20px;
 }
 
 .chocolate_made_flex_right {
   background-color: #FFFFFF;
-  width: 516px;
-  max-height: 400px;
+  padding: 32px;
   border-radius: 15px;
+  padding-bottom: 0px;
 }
 
 .chocolate_made_items {}
 
 .chocolate_made_item {
   margin-bottom: 24px;
-  max-width: 409px;
+  position: relative;
+  padding-left: 16px;
+  text-align: justify;
+  max-width: 425px;
+}
+
+.chocolate_made_item:last-child {
+  margin-bottom: 0;
 }
 
 .chocolate_made_text {
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.02em;
-  padding-left: 32px;
-  width: 457px;
+}
+
+.chocolate_made_item::before {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #4c4c4c;
+  border: 1px solid #eceded;
+  flex-shrink: 0;
 }
 
 /* section reviews */
@@ -353,7 +368,7 @@ button {
   border: 1px solid #fd9222;
   border-radius: 100px;
   padding: 14px 40px;
-  width: 222px;
+  min-width: 222px;
   height: 50px;
   background-color: transparent;
   display: block;
