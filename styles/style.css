@@ -370,6 +370,8 @@ footer {
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
+  padding-bottom: 54px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer_title {
@@ -385,7 +387,7 @@ footer {
 }
 
 .footer_address {
-  text-align: left;
+
 }
 
 .footer_address_text {
@@ -393,6 +395,8 @@ footer {
   line-height: 1.28;
   text-align: center;
   color: #fff;
+  padding-bottom: 14px;
+  text-align: left;
 }
 
 .footer_address_flex {
@@ -406,16 +410,19 @@ footer {
   letter-spacing: -0.02em;
   text-align: center;
   color: #fff;
+  text-align: left;
 }
 
 .footer_address_br {
-border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   width: 1136px;
   height: 0px;
   
 }
 
-.footer_nav {}
+.footer_nav {
+  margin-top: 24px;
+}
 
 .footer_nav_items {
   display: flex;
